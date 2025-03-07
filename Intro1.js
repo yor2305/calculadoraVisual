@@ -90,35 +90,35 @@ console.log("Hola Mundo");
 }
 saludar();
 
-function sumar (a,b){
-    return a+b;
-}console.log(sumar(7,4));
+    function sumar (a,b){
+        return a+b;
+    }console.log(sumar(7,4));
 
-function restar (a,b){
-    return a-b;
-}console.log(restar(30,10))
+    function restar (a,b){
+        return a-b;
+    }console.log(restar(30,10))
 
-function multiplicar (a,b){
-    return a*b;
-}console.log(multiplicar(2,9))
+    function multiplicar (a,b){
+        return a*b;
+    }console.log(multiplicar(2,9))
 
-function dividir(a,b){
-    return a/b;
-}console.log(dividir(48,8));
+    function dividir(a,b){
+        return a/b;
+    }console.log(dividir(48,8));
 
-function potenciacion (a,b){
-    return a**b;
-}console.log(potenciacion(3,4));
+    function potenciacion (a,b){
+        return a**b;
+    }console.log(potenciacion(3,4));
 
 
-function abs(a) {
-    if (a < 0) {
-        return -a;  
-    } else {
-        return a;  
-    }
-}console.log(abs(-40));
+    function abs(a) {
+        if (a < 0) {
+            return -a;  
+        } else {
+            return a;  
+        }
+    }console.log(abs(-40));
 
-function raizCuadrada(a) {
-    return Math.sqrt(a);
-}console.log(raizCuadrada(9));  
+    function raizCuadrada(a) {
+        return Math.sqrt(a);
+    }console.log(raizCuadrada(9));  
